@@ -55,7 +55,7 @@ a{
     position: absolute;
     bottom: 0px;
 }
-<<<<<<< HEAD
+HEAD
         .active-pink-2 input.form-control[type=text]:focus:not([readonly]) {
             border-bottom: 1px solid #f48fb1;
             box-shadow: 0 1px 0 0 #f48fb1;
@@ -78,6 +78,8 @@ a{
 }
 .active-cyan input.form-control[type=text] {
 =======
+}
+
 .active-pink-2 input[type=text]:focus:not([readonly]) {
     border-bottom: 1px solid #f48fb1;
     box-shadow: 0 1px 0 0 #f48fb1;
