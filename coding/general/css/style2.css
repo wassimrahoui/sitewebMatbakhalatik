@@ -1,0 +1,114 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.bg {
+    /* The image used */
+    background-image: url("../photos/page recette.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    font-family: 'Lobster';
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.topleft {
+    color: white;
+    font-family: Lobster;
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    font-size: 40px;
+}
+.topright {
+    color: white;
+    font-family: Lobster;
+    position: absolute;
+    top: 8px;
+    right: 30px;
+    font-size: 40px;
+}
+.active-cyan .fa, .active-cyan-2 .fa {
+    color: #4dd0e1;
+}
+.btn{
+    background: transparent;
+    border: none !important;
+}
+.cent{
+    position: absolute;
+    bottom: 0px;
+}
+<<<<<<< HEAD
+        .active-pink-2 input.form-control[type=text]:focus:not([readonly]) {
+            border-bottom: 1px solid #f48fb1;
+            box-shadow: 0 1px 0 0 #f48fb1;
+        }
+.active-pink input.form-control[type=text] {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+}
+.active-purple-2 input.form-control[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #ce93d8;
+    box-shadow: 0 1px 0 0 #ce93d8;
+}
+.active-purple input.form-control[type=text] {
+    border-bottom: 1px solid #ce93d8;
+    box-shadow: 0 1px 0 0 #ce93d8;
+}
+.active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan input.form-control[type=text] {
+=======
+.active-pink-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+}
+.active-pink input[type=text] {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+}
+.active-purple-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #ce93d8;
+    box-shadow: 0 1px 0 0 #ce93d8;
+}
+.active-purple input[type=text] {
+    border-bottom: 1px solid #ce93d8;
+    box-shadow: 0 1px 0 0 #ce93d8;
+}
+.active-cyan-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan input[type=text] {
+>>>>>>> a4aa806f2249bdbbafeb0960ea8e3a5e30d54161
+border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan .fa, .active-cyan-2 .fa {
+    color: #4dd0e1;
+}
+.active-purple .fa, .active-purple-2 .fa {
+    color: #ce93d8;
+}
+.active-pink .fa, .active-pink-2 .fa {
+    color: #f48fb1;
+}

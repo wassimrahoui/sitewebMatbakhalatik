@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../photos/2628337-food-4k-full-desktop-wallpaper.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.topleft {
+    color: white;
+    font-family: Lobster;
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    font-size: 40px;
+}
+.topright {
+    color: white;
+    font-family: Lobster;
+    position: absolute;
+    top: 8px;
+    right: 30px;
+    font-size: 40px;
+}
+.cent{
+    font-family: 'Lobster';
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+}
